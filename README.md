@@ -1,5 +1,13 @@
 # B-MOD_YOLOv4: Multi-Scale Object Detection and Semantic Augmentation
 
+YOLOv4 기반 객체탐지 모델에서 손실함수와 데이터 구성이 탐지 성능에 미치는 영향을 비교한 공동 연구입니다. 객체 크기에 따른 학습 기준의 민감도에 주목하고, 예측 영역과 정답 영역을 확률분포로 표현하는 B-MOD 손실함수를 제안했습니다.
+
+논문: Enhancing Object Detection Algorithm for Size-Insensitive Performance
+게재: Machine Vision and Applications, 37, Article 42 (2026)
+연구 참여: 김효주 · 공동 제1저자
+
+이 저장소는 공동 연구 저장소를 Fork한 것입니다. 원본 코드는 GitHub 상단의 원본 저장소 링크에서 확인할 수 있습니다.
+
 ## Overview
 
 This repository introduces an enhanced YOLOv4-based object detection framework tailored for **multi-scale object detection**. The key contributions of this research include:
